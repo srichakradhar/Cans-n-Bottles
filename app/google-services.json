@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "9165268811",
+    "firebase_url": "https://cans-n-bottles.firebaseio.com",
+    "project_id": "cans-n-bottles",
+    "storage_bucket": "cans-n-bottles.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:9165268811:android:78762c253764f208",
+        "android_client_info": {
+          "package_name": "com.chuckree.cans_n_bottles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "9165268811-vooroht6c4og6t9mpi9reitphd41heer.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.chuckree.cans_n_bottles",
+            "certificate_hash": "F4698F00E9C2DDEC93D366DF317C5D18B4E942B0"
+          }
+        },
+        {
+          "client_id": "9165268811-1nmq5vq185d5caelee1veqpt72jn613d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAq_zIngmpKC4AB9jnI2ytF92QYtQ7PiLs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "9165268811-1nmq5vq185d5caelee1veqpt72jn613d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

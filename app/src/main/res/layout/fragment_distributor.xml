@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.chuckree.cans_n_bottles.DistributorFragment">
+
+    <!--In the latest update of Google for Maps, only MapView is supported for fragments.
+    MapFragment & SupportMapFragment doesn't work. I might be wrong but this is what I saw after
+    trying to implement MapFragment & SupportMapFragment.-->
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/distributor_map"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="horizontal"
+        android:baselineAligned="false">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_cans"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp">
+
+            <EditText
+                android:id="@+id/input_cans"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/hint_cans"
+                android:nextFocusDown="@+id/input_bottles"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_bottles"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="60dp">
+
+            <EditText
+                android:id="@+id/input_bottles"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:hint="@string/hint_bottles"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_collect"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/colorPrimary"
+        android:text="@string/btn_collect"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

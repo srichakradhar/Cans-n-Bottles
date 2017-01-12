@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="btn_login">Login</string>
+    <string name="btn_collect">Please Collect</string>
+    <string name="btn_locate">Show Locations</string>
+    <string name="hint_zip">Zip Code</string>
+    <string name="auth_failed">Authentication Failed!</string>
+    <string name="anonymous">or sign in anonymously</string>
+</resources>
